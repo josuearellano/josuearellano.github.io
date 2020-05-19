@@ -1,13 +1,200 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<body>
+<!doctype html>
+<html>
 
-   <h1>El meu Portfoli</h1>
-   
-   <h2>Proves de canvis 1.0</h2>
-</body>
-</html>
+<head>
+	<meta charset="UTF-8">
+	<title>Josué Arellano</title>
+	<!----------------------------------------------------------------------------->
+	<link rel="stylesheet" href="css/normalize.css">
+
+	<!----------------------------------------------------------------------------->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+
+	<!----------------------------------------------------------------------------->
+
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!----------------------------------------------------------------------------->
+	<link rel="icon" href="img/favicon%20(1).ico">
+
+	<!----------------------------------------------------------------------------->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+
+<body>
+	<div class="sup">
+
+	</div>
+	<div id="contain-one">
+
+		<div class="container-header">
+
+
+			<div class="name-box">
+				<h1 class="slideDown">Josué Arellano</h1>
+			</div>
+			<div class="social-box slideDown">
+
+				<div class="social1"><a href="https://www.linkedin.com/in/josu%C3%A9-arellano-jim%C3%A9nez-710b341a0/" target="_blank"><img src="img/social/linke.png" alt=""></a></div>
+				<div class="social2"><a href="https://www.instagram.com/graphicseion/" target="_blank"><img src="img/social/insta.png" alt=""></a></div>
+				<div class="social3"><a href="https://www.youtube.com/channel/UCrk5ifvtJstAq2FEAefi4lw" target="_blank"><img src="img/social/yout.png" alt=""></a></div>
+				<div class="social4"><a href="https://www.artstation.com/graphicseion" target="_blank"><img src="img/social/art.png" alt=""></a></div>
+				<div class="social5"><a href="https://www.facebook.com/graphicseion/" target="_blank"><img src="img/social/fb.png" alt=""></a></div>
+			</div>
+
+		</div>
+		<!--MENU------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+		<nav class="container-menu">
+			<button class="botons boto-menu" onclick="location.href='index.html'" type="button">Inici</button>
+
+			<button class="botons boto-menu" onclick="location.href='quisoc.html'" type="button">Qui sóc?</button>
+
+			<button class="botons boto-menu" onclick="location.href='#eines'" type="button">Eines</button>
+
+			<button class="botons boto-menu" onclick="location.href='#teknos'" type="button">Mostres</button>
+
+			<button class="botons boto-menu" onclick="location.href='demos.html'" type="button">Demos</button>
+
+			<button class="botons boto-menu" onclick="location.href='contacte.html'" type="button">Contacte</button>
+		</nav>
+
+		<!--capçalera------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+		<section class="container-boxfoto1">
+
+			<div class="boxh3">
+				<h3 class="h3animat floating">Animació 3D, disseny i programació de pàgines web, videojocs, realitat virtual, aplicacions i espais interactius.</h3>
+
+			</div>
+			<div class="foto-coche">
+				<div class="foto">
+					<img src="img/Audi1.jpg" width="297" alt="">
+				</div>
+			</div>
+
+		</section>
+		<div class="corte"></div>
+
+		<section class="head-flex" id="eines">
+			<h2 class="slideDown h3animat">Eines</h2>
+			<p>Experiència amb les següents eines de treball</p>
+
+			<div class="container-icons">
+
+				<div class="icon1"></div>
+				<div class="icon2"></div>
+				<div class="icon3"></div>
+				<div class="icon4"></div>
+				<div class="icon5"></div>
+				<div class="icon6"></div>
+				<div class="icon7"></div>
+				<div class="icon8"></div>
+				<div class="icon9"></div>
+				<div class="icon10"></div>
+				<div class="icon11"></div>
+				<div class="icon12"></div>
+				<div class="icon13"></div>
+				<div class="icon14"></div>
+				<div class="icon15"></div>
+				<div class="icon16"></div>
+
+			</div>
+		</section>
+		<div class="corte"></div>
+
+		<section class="head-flex">
+			<div id="teknos">
+				<h3 class="h3animat slideDown">Mostres</h3>
+			</div>
+			
+			<!--slider video------------------------------------------------------------------------------------------------------------------------------------------------------------>
+			<div class="container-display">
+				<video class="mySlides" src="video/videos/demoreel/demoreel.webm" type="video/webm" controls style="width:100%"></video>
+				<track label="Spanish" kind="subtitles" srclang="es" src="video/subtitols/subtitols_es.vtt">
+				<track label="Catalan" kind="subtitles" srclang="cat" src="video/subtitols/subtitols_cat.vtt" default>
+				
+				<video class="mySlides" src="video/videos/audioR8.mp4" controls style="width:100%"></video>
+				<video class="mySlides" src="video/IB3TV.mp4" controls style="width:100%"></video>
+				<video class="mySlides" src="video/videos/herencia.mp4" controls style="width:100%"></video>
+				<video class="mySlides" src="video/videos/PlasmaBall.mp4" controls style="width:100%"></video>
+				<button class="prev" onclick="plusDivs(-1)">&#10094;</button>
+				<button class="next" onclick="plusDivs(1)">&#10095;</button>
+			</div>
+		</section>
+
+		<div class="corte"></div>
+		<!--youtube-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+		<section class="head-flex">
+
+		</section>
+		<div class="corte"></div>
+		<div class="ytub">
+
+			<div class="ytub-videos">
+				<iframe width="280" height="200" src="https://www.youtube.com/embed/U5tCaNuyU78" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<div class="ytub-videos">
+				<iframe width="280" height="200" src="https://www.youtube.com/embed/_572pUGqo04" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<div class="ytub-videos">
+				<iframe width="280" height=200 src="https://www.youtube.com/embed/cAS9tyubIls" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+-->
+
+
+	</div>
+
+	<footer id="footer">
+		<div id="footer-text">
+			Josué Arellano
+		</div>
+		<div id="footer-text">
+			+34 656.986.348
+		</div>
+		<div id="footer-text">
+			https://graphicseion.es
+		</div>
+		<div id="footer-text">
+			josue.arellano@uvic.cat
+		</div>
+	</footer>
+
+	<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+
+
+		function plusDivs(n) {
+			showDivs(slideIndex += n);
+		}
+
+
+
+		function showDivs(n) {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			if (n > x.length) {
+				slideIndex = 1
+			}
+			if (n < 1) {
+				slideIndex = x.length
+			}
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";
+			}
+			x[slideIndex - 1].style.display = "block";
+		}
+	</script>
+
+</body></html>
