@@ -645,62 +645,9 @@ p {
 	right: 0;
 }
 
+/*___________________________________________________MEDIAQERY------------------------------------*/
 
-
-/*________________________________________________________FormulariContacte__________________________________________________*/
-
-
-.form {
-	font-family: 'Libre Franklin', sans-serif;
-	width: 450px;
-	margin: auto;
-	background: rgb(250, 250, 250);
-	padding: 10px 20px;
-	box-sizing: border-box;
-	margin: 40px auto 10px;
-	border-radius: 20px;
-	box-shadow: 2px 2px 5px #555555;
-}
-
-.form:hover {
-
-	border: none;
-}
-
-.holder:hover {
-	background: rgb(255, 0, 0, 0.1);
-}
-
-#boton:hover {
-	color: #ff3333;
-	font-weight: 600;
-}
-
-.gracias {
-	width: 450px;
-	height: 55px;
-	margin: auto;
-	background: rgba(255, 255, 255, 0.6);
-	padding: 10px 20px;
-	box-sizing: border-box;
-	margin-top: 20px;
-	border-radius: 20px;
-	box-shadow: 2px 2px grey;
-}
-
-
-input,
-textarea {
-	width: 100%;
-	margin-bottom: 20px;
-	padding: 7px;
-	box-sizing: border-box;
-}
-
-
-
-
-___________________________________________________MEDIAQERY------------------------------------*/ @media (max-width: 480px) {
+@media (max-width: 480px) {
 	#contain-main {
 		width: 90%;
 	}
@@ -726,7 +673,7 @@ ___________________________________________________MEDIAQERY--------------------
 	}
 }
 
-/*__________________________________________________*/
+/*__________________________________________________MEDIAQERY------------------------------------*/
 
 
 @media (max-width: 700px) {
@@ -797,9 +744,34 @@ ___________________________________________________MEDIAQERY--------------------
 		margin: auto;
 	}
 
+
+
+	.prev,
+	.next {
+		position: absolute;
+		top: 40%;
+		margin: 0px 5px;
+		z-index: 1;
+		width: 20px;
+		height: 20px;
+		border-radius: 100px;
+		font-size: .5em;
+		font-weight: bold;
+		background: #fff;
+		padding: 0px 5px;
+		color: #ff3333;
+		opacity: 0.5;
+		transition: opacity 0.5s;
+		-o-transition: opacity 0.5s;
+		-moz-transition: opacity 0.5s;
+		-webkit-transition: opacity 0.5s;
+	}
+
+
+
 }
 
-/*__________________________________________________*/
+/*__________________________________________________MEDIAQERY------------------------------------*/
 
 
 @media (max-width: 1000px) {
