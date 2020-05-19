@@ -718,12 +718,12 @@ ___________________________________________________MEDIAQERY--------------------
 		height: 20px;
 
 	}
-	
+
 	.name-box {
-	min-width: 200px;
-	flex-wrap: nowrap;
-	margin: auto;
-}
+		min-width: 200px;
+		flex-wrap: nowrap;
+		margin: auto;
+	}
 }
 
 /*__________________________________________________*/
@@ -738,10 +738,18 @@ ___________________________________________________MEDIAQERY--------------------
 		display: flex;
 		justify-content: center;
 		align-items: center;
-
-
 	}
 
+	.name-box {
+		text-align: center;
+		margin: auto;
+	}
+
+	.social-box {
+		margin: 0;
+		justify-content: center;
+
+	}
 
 	.botons {
 		display: inline-flex;
@@ -784,7 +792,7 @@ ___________________________________________________MEDIAQERY--------------------
 	}
 
 
-		.h3animat-quisoc {
+	.h3animat-quisoc {
 		font-size: 2em;
 		margin: auto;
 	}
