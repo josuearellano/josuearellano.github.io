@@ -4,24 +4,25 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Contacte</title>
-	<!--------------------------------------------------------------------NORMALIZE-->
+	<!----------------------------------------------------------------------------->
 	<link rel="stylesheet" href="css/normalize.css">
 
-	<!-------------------------------------------------------------------TEXT FONTS-->
+	<!----------------------------------------------------------------------------->
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
 
-	<!--------------------------------------------------------------------------CSS-->
+	<!----------------------------------------------------------------------------->
 
 	<link rel="stylesheet" href="css/animations.css">
 	<link rel="stylesheet" href="css/style.css">
 
-	<!----------------------------------------------------------------------FAVICON-->
+	<!----------------------------------------------------------------------------->
 	<link rel="icon" href="img/favicon%20(1).ico">
 
-	<!--------------------------------------------------------SCALE VIEWPORT DEVICE-->
+	<!----------------------------------------------------------------------------->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
 </head>
 
@@ -32,7 +33,7 @@
 	<div id="contain-one">
 
 		<div class="container-header">
-		<!--NOM I XARXES SOCIALS------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
 
 			<div class="name-box">
 				<h1 class="slideDown">Josué Arellano</h1>
@@ -47,47 +48,46 @@
 			</div>
 
 		</div>
-		<!--MENU------------------------------------------------------------------------------------------------------------------------------------------------------------>
+		<!--MENU-->
 
 
 		<nav class="container-menu">
 			<button class="botons boto-menu" onclick="location.href='index.html'" type="button">Inici</button>
 
-			<button class="botons boto-menu" onclick="location.href='quisoc.html'" type="button">Qui sóc?</button>
+			<button class="botons boto-menu" onclick="location.href='index.html#jo'" type="button">Qui sóc?</button>
 
 			<button class="botons boto-menu" onclick="location.href='index.html#eines'" type="button">Eines</button>
 
 			<button class="botons boto-menu" onclick="location.href='index.html#teknos'" type="button">Mostres</button>
+
+			<button class="botons boto-menu" onclick="location.href='demos.html'" type="button">Demos</button>
+
+			<button class="botons boto-menu" onclick="location.href='contacte.html'" type="button">Contacte</button>
 		</nav>
 
-		<!--QUI SÓC------------------------------------------------------------------------------------------------------------------------------------------------------------>
-		<div class="head-flex" id="jo">
-			<section class="container-boxfoto2">
-				<div class="quisoc-foto">
-					<div>
-						<h3 class="h3animat-quisoc ">Quisóc?</h3>
-					</div>
-					<img src="img/fotorodona.png" width="120" height="120" alt="">
+
+
+		<!--FORMULARI-->
+
+		<div class="contenedorgeneral bg-form">
+
+			<form class="form " action="enviar.php" method="post">
+				<h2>Contacte</h2>
+				<label for="Nom">Nom:</label>
+				<input class="holder" type="text" name="nom" placeholder="Nom" />
+
+				<label for="Email">E-m@il:</label>
+				<input class="holder" type="text" name="email" placeholder="E-m@il" />
+
+				<label for="Missatge">Missatge:</label>
+				<textarea class="holder" name="missatge" placeholder="Escrigui el seu missatge"></textarea>
+				<div class="submit">
+					<input type="submit" value="Enviar" id="boton" />
 				</div>
-				<div class="quisoc">
-
-					<p class="p2">
-						Jove <b>emprenedor</b> i<b> resolutiu</b> .<br>
-						<b>Polivalència</b> i <b>capacitat</b> d' adaptació. <br>
-						<b>Professionalitat</b> i <b>creativitat</b> activa i constant.<br>
-						Ampli coneixement en l' ús de <b>softwares</b> informàtics. <br>
-						<b>Més de 10 anys</b> realitzant diferents tasques dins l' àmbit del disseny gràfic. <br>
-						<b>Més de 3 anys</b> duent a terme el desenvolupament i manteniment d' espais web. <br>
-					</p>
-
-				</div>
-
-			</section>
+			</form>
 		</div>
-
 	</div>
 
-	<!--FOOTER------------------------------------------------------------------------------------------------------------------------------------------------------------>
 	<footer id="footer">
 		<div id="footer-text">
 			Josué Arellano
@@ -104,8 +104,3 @@
 	</footer>
 
 </body></html>
-
-
-
-
-
