@@ -95,9 +95,6 @@ body {
 
 
 /*___________________________________________________*/
-h1 {}
-
-
 
 .h2hola {
 	text-align: center;
@@ -145,7 +142,16 @@ p {
 	line-height: 1.5em;
 }
 
-
+.p3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 600;
+	font-size: 1.6em;
+	text-align: center;
+	color: white;
+	letter-spacing: 0.05em;
+	word-spacing: 0.01em;
+	line-height: 1.5em;
+}
 
 .corte {
 	border-bottom: 1px solid lightgray;
@@ -164,8 +170,6 @@ p {
 
 }
 
-
-.boxh3 {}
 
 .foto {
 	display: flex;
@@ -259,10 +263,9 @@ p {
 
 .icon1:hover {
 
-	transform: scale(1.1);
-	cursor: pointer;
-}
+	background-image: url(../img/ACTIVE_HTML5.png);
 
+}
 
 .icon2 {
 	background-image: url(../img/css.png);
@@ -271,11 +274,9 @@ p {
 
 .icon2:hover {
 
-	transform: scale(1.1);
-	cursor: pointer;
+	background-image: url(../img/ACTIVE_CSS.png);
+
 }
-
-
 
 .icon3 {
 	background-image: url(../img/unityico.png);
@@ -284,11 +285,9 @@ p {
 
 .icon3:hover {
 
-	transform: scale(1.1);
-	cursor: pointer;
+	background-image: url(../img/ACTIVE_UNITY.png);
+
 }
-
-
 
 .icon4 {
 	background-image: url(../img/maya.png);
@@ -297,11 +296,9 @@ p {
 
 .icon4:hover {
 
-	transform: scale(1.1);
-	cursor: pointer;
+	background-image: url(../img/ACTIVE_MAYA.png);
+
 }
-
-
 
 .icon5 {
 	background-image: url(../img/c4d.png);
@@ -310,11 +307,9 @@ p {
 
 .icon5:hover {
 
-	transform: scale(1.1);
-	cursor: pointer;
+	background-image: url(../img/ACTIVE_C4D.png);
+
 }
-
-
 
 .icon6 {
 	background-image: url(../img/vegas.png);
@@ -323,11 +318,9 @@ p {
 
 .icon6:hover {
 
-	transform: scale(1.1);
-	cursor: pointer;
+	background-image: url(../img/ACTIVE_VEGAS.png);
+
 }
-
-
 
 .icon7 {
 	background-image: url(../img/pr.png);
@@ -336,11 +329,9 @@ p {
 
 .icon7:hover {
 
-	transform: scale(1.1);
-	cursor: pointer;
+	background-image: url(../img/ACTIVE_PREMIERE.png);
+
 }
-
-
 
 .icon8 {
 	background-image: url(../img/ps.png);
@@ -349,11 +340,9 @@ p {
 
 .icon8:hover {
 
-	transform: scale(1.1);
-	cursor: pointer;
+	background-image: url(../img/ACTIVE_PSD.png);
+
 }
-
-
 
 .icon9 {
 	background-image: url(../img/ai.png);
@@ -362,11 +351,9 @@ p {
 
 .icon9:hover {
 
-	transform: scale(1.1);
-	cursor: pointer;
+	background-image: url(../img/ACTIVE_ILLUSTRATOR.png);
+
 }
-
-
 
 .icon10 {
 	background-image: url(../img/id.png);
@@ -375,11 +362,9 @@ p {
 
 .icon10:hover {
 
-	transform: scale(1.1);
-	cursor: pointer;
+	background-image: url(../img/ACTIVE_INDESIGN.png);
+
 }
-
-
 
 .icon11 {
 	background-image: url(../img/an.png);
@@ -388,8 +373,8 @@ p {
 
 .icon11:hover {
 
-	transform: scale(1.1);
-	cursor: pointer;
+	background-image: url(../img/ACTIVE_ANIMATE.png);
+
 }
 
 .icon12 {
@@ -399,8 +384,8 @@ p {
 
 .icon12:hover {
 
-	transform: scale(1.1);
-	cursor: pointer;
+	background-image: url(../img/ACTIVE_AUDITION.png);
+
 }
 
 .icon13 {
@@ -410,11 +395,9 @@ p {
 
 .icon13:hover {
 
-	transform: scale(1.1);
-	cursor: pointer;
+	background-image: url(../img/ACTIVE_CUBASE.png);
+
 }
-
-
 
 
 .icon14 {
@@ -424,8 +407,8 @@ p {
 
 .icon14:hover {
 
-	transform: scale(1.1);
-	cursor: pointer;
+	background-image: url(../img/ACTIVE_VISUALSTUDIO.png);
+
 }
 
 .icon15 {
@@ -435,11 +418,9 @@ p {
 
 .icon15:hover {
 
-	transform: scale(1.1);
-	cursor: pointer;
+	background-image: url(../img/ACTIVE_BRACKETS.png);
+
 }
-
-
 
 .icon16 {
 	background-image: url(../img/processing.png);
@@ -448,8 +429,8 @@ p {
 
 .icon16:hover {
 
-	transform: scale(1.1);
-	cursor: pointer;
+	background-image: url(../img/ACTIVE_PROCESSING.png);
+
 }
 
 /*-------------------------------------------------------------------------social*/
@@ -483,9 +464,9 @@ p {
 /*--------------------------------------*/
 .demoreel {
 	display: flex;
-	margin: 100px auto;
+	margin: auto;
 	justify-content: center;
-
+    border: 1px solid gray;
 }
 
 .video {
@@ -506,25 +487,23 @@ p {
 	margin: 5px;
 }
 
-/*___________________________________________________*/
+/*______________________________________________________________FOOTER-----------------------------*/
 
 #footer {
 	display: block;
 	justify-content: center;
-	font-family: 'Libre Franklin', sans-serif;
 	width: 100%;
-	color: ghostwhite;
+	color: white;
 	background-color: black;
 	text-align: center;
 	bottom: 0px;
 	left: 0px;
-	margin: 5px auto 0px;
+	margin: 5px auto 5px;
 
 }
 
 #footer-text {
-	text-decoration-color: white;
-	padding: 5px 0 0;
+	margin: 5 0 5;
 
 }
 
@@ -553,11 +532,7 @@ p {
 	margin: 5px;
 	border: 1px solid #ff3333;
 
-
-
 }
-
-
 
 .container-text {
 	text-align: left;
@@ -589,7 +564,7 @@ p {
 	top: 50%;
 	left: 0%;
 	transform: translate(0%, -50%);
-	*/
+
 }
 
 
@@ -645,6 +620,73 @@ p {
 	right: 0;
 }
 
+
+
+/*________________________________________________________FormulariContacte__________________________________________________*/
+
+.formgroup{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
+}
+
+.form {
+	font-family: 'Libre Franklin', sans-serif;
+	width: 450px;
+	margin: auto;
+	background: rgb(250, 250, 250);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 50px;
+	border-radius: 20px;
+	box-shadow: 2px 2px 5px #555555;
+}
+
+.form:hover {
+
+	border: none;
+}
+
+.holder:hover {
+	background: rgb(255, 0, 0, 0.1);
+}
+
+#boton:hover {
+	color: #ff3333;
+	font-weight: 600;
+}
+
+.gracias {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	width: 450px;
+	height: 55px;
+	margin: auto;
+	background: rgb(250, 250, 250);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin: 40px auto 10px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px #555555;
+
+}
+
+
+input,
+textarea {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+}
+
+
+
+
 /*___________________________________________________MEDIAQERY------------------------------------*/
 
 @media (max-width: 480px) {
@@ -686,6 +728,8 @@ p {
 		justify-content: center;
 		align-items: center;
 	}
+	
+
 
 	.name-box {
 		text-align: center;
@@ -767,8 +811,11 @@ p {
 		-webkit-transition: opacity 0.5s;
 	}
 
+    .gracias {
 
+	width: 100%;
 
+    }
 }
 
 /*__________________________________________________MEDIAQERY------------------------------------*/
@@ -780,6 +827,12 @@ p {
 		width: 85%;
 	}
 
+	.p3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 600;
+	font-size: 1em;
+	line-height: 1em;
+}
 
 	.botons {
 		display: inline-flex;
@@ -834,7 +887,4 @@ p {
 		margin: auto;
 		flex-wrap: wrap;
 	}
-
-
-
 }
