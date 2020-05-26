@@ -1,6 +1,6 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<html>
 
 <head>
 	<meta charset="UTF-8">
@@ -50,8 +50,9 @@
 			</div>
 
 		</div>
-		
 		<!--MENU------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
 		<nav class="container-menu">
 			<button class="botons boto-menu" onclick="location.href='index.html'" type="button">Inici</button>
 
@@ -59,7 +60,9 @@
 
 			<button class="botons boto-menu" onclick="location.href='#eines'" type="button">Eines</button>
 
-			<button class="botons boto-menu" onclick="location.href='#teknos'" type="button">Mostres</button>
+			<button class="botons boto-menu" onclick="location.href='#mostres'" type="button">Mostres</button>
+
+
 		</nav>
 
 		<!--INTRO I MOSTRA AUDI------------------------------------------------------------------------------------------------------------------------------------------------------------>
@@ -107,7 +110,6 @@
 		</section>
 		<div class="corte"></div>
 
-		
 		<!--VIMEO VIDEOS---------------------------------------------------------------------------------------------------------------------------------------------------------->
 		<section class="head-flex" id="mostres">
 			<h2 class="h3animat slideDown">Mostres</h2>
@@ -126,12 +128,13 @@
 				<div class="ytub-videos">
 					<iframe src="https://player.vimeo.com/video/422341525" width="280" height="200" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 				</div>
-
-				<a href="mostres.html" target="_blank">Més animacions...</a>
 			</div>
-			<div class="corte"></div>
+			
 		</section>
-
+		
+		
+		<div class="corte"></div>
+            
 		<!--DEMOREEL------------------------------------------------------------------------------------------------------------------------------------------------------------>
 		<section class="head-flex" id="teknos">
 			<h3 class="h3animat slideDown">Demoreel</h3>
@@ -139,7 +142,7 @@
 
 
 			<div >
-				<video class="demoreel" src="video/videos/demoreel/demoreel.webm" type="video/webm" controls width="600">
+				<video class="demoreel" src="video/videos/demoreel/demoreel.webm" type="video/webm" controls style="width:100%">
 					<track label="Spanish" kind="subtitles" srclang="es" src="video/subtitols/subtitols_es.vtt">
 					<track label="Catalan" kind="subtitles" srclang="cat" src="video/subtitols/subtitols_cat.vtt" default></video>
 
@@ -187,15 +190,17 @@
 
 	</footer>
 
-
-	<!--SCRIPT SLIDER DE VIDEOS------------------------------------------------------------------------------------------------------------------------------------------------------------>
 	<script>
 		var slideIndex = 1;
 		showDivs(slideIndex);
 
+
+
 		function plusDivs(n) {
 			showDivs(slideIndex += n);
 		}
+
+
 
 		function showDivs(n) {
 			var i;

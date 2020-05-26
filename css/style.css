@@ -153,6 +153,12 @@ p {
 	line-height: 1.5em;
 }
 
+.textlink{
+    display: flex;
+    justify-content: center;
+    text-align:center;
+}
+
 .corte {
 	border-bottom: 1px solid lightgray;
 	margin: 50px auto 25px;
@@ -169,7 +175,6 @@ p {
 	background-color: white;
 
 }
-
 
 .foto {
 	display: flex;
@@ -684,8 +689,14 @@ textarea {
 	box-sizing: border-box;
 }
 
-
-
+.mapa{
+    width:380px;
+	display: block;
+	justify-content: center;
+	padding-top: 50px;
+	text-align: center;
+	
+}
 
 /*___________________________________________________MEDIAQERY------------------------------------*/
 
@@ -811,17 +822,24 @@ textarea {
 		-webkit-transition: opacity 0.5s;
 	}
 
-    .gracias {
-
+	.form {
+		margin-top: 20px;
+		width: 100%;
+}
+	
+    .gracias{
 	width: 100%;
-
+	}
+	
+	.formgroup{
+	justify-content: center;
     }
 }
 
 /*__________________________________________________MEDIAQERY------------------------------------*/
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
 
 	#contain-main {
 		width: 85%;
@@ -881,10 +899,12 @@ textarea {
 
 	}
 
-
-
 	.container-boxfoto2 {
 		margin: auto;
 		flex-wrap: wrap;
 	}
+	
+	.formgroup{
+	justify-content: center;
+    }
 }
